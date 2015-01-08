@@ -1,0 +1,14 @@
+1. 本编码规范针对金桐网android客户端。
+大家想到的欢迎随时补充。
+
+2. 命名规则采用驼峰命名法
+3. 资源文件命名：
+activity: 采用 model_activityname_activity，如果没有model名称，则直接 activityname_activity,如：
+user_login_activity.xml, home_activity.xml
+
+fragment: 采用 model_activityname_frg_frg内部名称， 如 home_frg_leftmenu, user_login_frg_personlist等
+
+4. 代码通用工具类（工程基本无关类型）存放在com.utils包下面
+5. ui所有相关的存放在com.tr.ui包下面,ui下的包按相关性，将高耦合的模块存放在一起，如用户相关放在user下，im相关放在im下等。
+6. model类存放在 com.tr.model包中
+
